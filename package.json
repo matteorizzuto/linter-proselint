@@ -38,6 +38,9 @@
       }
     }
   },
+  "scripts": {
+    "lint": "eslint ."
+  },
   "devDependencies": {
     "eslint": "^2.2.0",
     "babel-eslint": "^5.0.0",

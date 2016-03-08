@@ -7,3 +7,7 @@ A plugin for Atom Linter providing an interface to [proselint](https://github.co
 ```Shell
 pip install proselint
 ```
+
+# Screenshot
+
+![linter-proselint](screenshot.png "Screenshot that shows a linter-proselint warning")

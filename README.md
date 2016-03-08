@@ -1,3 +1,4 @@
+[![apm](https://img.shields.io/apm/v/linter-proselint.svg)](https://atom.io/packages/linter-proselint)
 ![circle-ci status](https://circleci.com/gh/smockle/linter-proselint.svg?style=shield&circle-token=043ff19c689fddbc4ee90991d0c2bc74f6c74926)
 
 #linter-proselint

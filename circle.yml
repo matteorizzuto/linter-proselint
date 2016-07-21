@@ -14,7 +14,8 @@ test:
     - atom -v
     - apm -v
     - apm install --production
-    - apm test
+    # No specs exist currently, commenting out for the moment...
+    # - apm test
 
 machine:
   node:

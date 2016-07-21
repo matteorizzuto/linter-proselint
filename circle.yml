@@ -4,7 +4,19 @@ dependencies:
     - sudo dpkg --install atom-amd64.deb || true
     - sudo apt-get update
     - sudo apt-get -f install
-    - apm install
+    - npm install
+
 test:
   override:
     - npm run lint
+    # Remove the node_modules installed with the system npm to test real apm install
+    - rm -Rf node_modules
+    - atom -v
+    - apm -v
+    - apm install --production
+    # No specs exist currently, commenting out for the moment...
+    # - apm test
+
+machine:
+  node:
+    version: 6

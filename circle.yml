@@ -4,6 +4,7 @@ dependencies:
     - sudo dpkg --install atom-amd64.deb || true
     - sudo apt-get update
     - sudo apt-get -f install
+    - pip install proselint
     - npm install
 
 test:
@@ -14,9 +15,10 @@ test:
     - atom -v
     - apm -v
     - apm install --production
-    # No specs exist currently, commenting out for the moment...
-    # - apm test
+    - apm test
 
 machine:
   node:
     version: 6
+  python:
+    version: 3.5.1

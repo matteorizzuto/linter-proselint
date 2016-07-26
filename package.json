@@ -22,7 +22,8 @@
         "text.tex.latex",
         "text.tex.latex.beamer",
         "text.tex.latex.memoir",
-        "source.asciidoc"
+        "source.asciidoc",
+        "text.restructuredtext"
       ],
       "items": {
         "type": "string"

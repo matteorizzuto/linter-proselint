@@ -62,10 +62,15 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "babel-eslint": "^6.0.2",
     "eslint": "^3.1.1",
     "eslint-config-standard": "^6.0.0-beta.0",
     "eslint-plugin-promise": "^2.0.0",
     "eslint-plugin-standard": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "globals": {
+      "atom": true
+    }
   }
 }

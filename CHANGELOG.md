@@ -1,5 +1,15 @@
 # Change Log
 
+## [v3.3.0](https://github.com/AtomLinter/linter-proselint/tree/v3.3.0) (2017-08-28)
+[Full Changelog](https://github.com/AtomLinter/linter-proselint/compare/v3.2.1...v3.3.0)
+
+**Implemented enhancements:**
+
+- Updates and cleanup [\#55](https://github.com/AtomLinter/linter-proselint/pull/55) ([Arcanemagus](https://github.com/Arcanemagus))
+- chore\(package\): update eslint-config-standard to version 10.2.1 [\#50](https://github.com/AtomLinter/linter-proselint/pull/50) ([Arcanemagus](https://github.com/Arcanemagus))
+- Update atom-linter to version 10.0.0 🚀 [\#49](https://github.com/AtomLinter/linter-proselint/pull/49) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update eslint-config-standard to version 8.0.0-beta.1 🚀 [\#46](https://github.com/AtomLinter/linter-proselint/pull/46) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v3.2.1](https://github.com/AtomLinter/linter-proselint/tree/v3.2.1) (2017-02-14)
 [Full Changelog](https://github.com/AtomLinter/linter-proselint/compare/v3.2.0...v3.2.1)
 

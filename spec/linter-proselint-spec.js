@@ -28,10 +28,9 @@ describe('The proselint provider for Linter', () => {
     const messages = await lint(editor);
 
     expect(messages.length).toBe(1);
-    expect(messages[0].type).toBe('Warning');
-    expect(messages[0].text).toBe("'lol.' is chatspeak. Write it out.");
-    expect(messages[0].html).not.toBeDefined();
-    expect(messages[0].filePath).toBe(badPath);
-    expect(messages[0].range).toEqual([[0, 15], [0, 19]]);
+    expect(messages[0].severity).toBe('warning');
+    expect(messages[0].excerpt).toBe("'lol.' is chatspeak. Write it out.");
+    expect(messages[0].location.file).toBe(badPath);
+    expect(messages[0].location.position).toEqual([[0, 15], [0, 19]]);
   });
 });

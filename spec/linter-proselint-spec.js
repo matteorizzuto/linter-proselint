@@ -6,7 +6,7 @@ import { it, fit, wait, beforeEach, afterEach } from 'jasmine-fix';
 import linterProselint from '../lib';
 
 const linter = linterProselint.provideLinter();
-const lint = linter.lint;
+const { lint } = linter;
 
 const badPath = path.join(__dirname, 'fixtures', 'bad.txt');
 const goodPath = path.join(__dirname, 'fixtures', 'good.txt');
